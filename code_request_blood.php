@@ -4,12 +4,12 @@ include('db_connect.php');
 if(isset($_SESSION['hospital']))
 {
     $_SESSION['status']="Kindly Login as receiver to request blood";
-    header('Location:index.php');
+    header('Location:r_login.php');
 }
 if(!isset($_SESSION['receiver']))
 {
     $_SESSION['status']="Kindly Login as receiver to request blood";
-    header('Location:index.php');
+    header('Location:r_login.php');
 }
 if(isset($_SESSION['receiver']))
 {
