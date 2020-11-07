@@ -5,9 +5,8 @@ include('db_connect.php');
 ?>
 
 <?php
-include('security.php');
 
-if(mysqli_select_db($connection,'internshala') )
+if(isset($_POST['login_btn']) )
 {
    
     $fname=$_POST['fname'];
