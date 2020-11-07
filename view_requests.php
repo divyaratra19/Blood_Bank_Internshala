@@ -1,5 +1,10 @@
 <?php
 include('db_connect.php');
+if(!isset($_SESSION['hospital']))
+{
+  $_SESSION['status']="Login as hospital to access the page";
+  header('Location: h_login.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
