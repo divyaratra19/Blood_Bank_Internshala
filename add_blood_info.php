@@ -95,7 +95,7 @@ if(!isset($_SESSION['hospital']))
                     else
                      $_SESSION['status']="Error fetching value";
                 ?>
-                <button type="submit" name="login_btn" class="btn btn-primary btn-user btn-block" >
+                <button type="submit" name="add_btn" class="btn btn-primary btn-user btn-block" >
                   Add
                 </button>
                 <br>
