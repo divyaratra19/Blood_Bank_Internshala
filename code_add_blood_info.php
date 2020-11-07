@@ -9,7 +9,7 @@ if(!$connection)
     echo "Connection error";
 }
 
-if(mysqli_select_db($connection,'internshala') )
+if(isset($_POST['add_btn'])) 
 {
     $blood_id=$_POST['blood_select'];
     $volume=$_POST['volume'];
