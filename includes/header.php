@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- Custom styles-->
-  <link href="css/sb-admin-2.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
